@@ -27,6 +27,7 @@ requirements:
     - quaternion
     - spherical_functions
     - spinsfast
+    - sxs
 
 test:
   imports:
