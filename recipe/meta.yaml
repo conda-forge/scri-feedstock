@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: package_version={{ version }} {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
 
 requirements:
@@ -23,8 +23,10 @@ requirements:
     - python
     - numpy >=1.13
     - scipy
+    - matplotlib
+    - h5py
     - numba
-    - quaternion
+    - quaternion >= 2019.7.15.12.50.36
     - spherical_functions
     - spinsfast
     - sxs
@@ -34,7 +36,7 @@ test:
     - scri
 
 about:
-  home: http://github.com/moble/scri
+  home: https://github.com/moble/scri
   license: MIT
   license_family: MIT
   license_file: LICENSE
