@@ -26,7 +26,7 @@ requirements:
     - matplotlib
     - h5py
     - numba
-    - quaternion >= 2019.7.15.12.50.36
+    - quaternion >=2019.7.15.12.50.36
     - spherical_functions
     - spinsfast
     - sxs
