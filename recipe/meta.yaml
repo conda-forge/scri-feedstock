@@ -1,6 +1,6 @@
 {% set name = "scri" %}
-{% set version = "2019.3.21.21.27.29" %}
-{% set sha256 = "4abb5b8619ff204808c50c2402e993b695ab49f05841f38d75cea861d05aee09" %}
+{% set version = "2019.6.5.13.20.47" %}
+{% set sha256 = "0d5969392f78582d1013079df13f472c0a05465c8a82bf706ce3082d13217c5a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: package_version={{ version }} {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
 
 requirements:
