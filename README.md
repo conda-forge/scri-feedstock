@@ -1,7 +1,7 @@
 About scri
 ==========
 
-Home: http://github.com/moble/scri
+Home: https://github.com/moble/scri
 
 Package license: MIT
 
