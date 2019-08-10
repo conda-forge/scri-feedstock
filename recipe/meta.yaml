@@ -11,16 +11,16 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
+  noarch: python >=3
   number: 0
   script: package_version={{ version }} {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
 
 requirements:
   host:
-    - python
+    - python >=3
     - pip
   run:
-    - python >=3.5
+    - python >=3
     - numpy >=1.13
     - scipy
     - matplotlib
