@@ -1,6 +1,6 @@
 {% set name = "scri" %}
-{% set version = "2019.6.5.13.20.47" %}
-{% set sha256 = "0d5969392f78582d1013079df13f472c0a05465c8a82bf706ce3082d13217c5a" %}
+{% set version = "2019.8.9.16.54.31" %}
+{% set sha256 = "c90e43b9350b0845bab398c77883497125d158262c35d3946f8b49bf4adf4114" %}
 
 package:
   name: {{ name|lower }}
@@ -17,10 +17,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3
     - pip
   run:
-    - python
+    - python >=3
     - numpy >=1.13
     - scipy
     - matplotlib
