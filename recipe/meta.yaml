@@ -1,6 +1,6 @@
 {% set name = "scri" %}
-{% set version = "2019.12.11.13.26.16" %}
-{% set sha256 = "b5d4def6dfd77758dc2e9f006a0917f64f697667a64cf6a72142e33b190a0a62" %}
+{% set version = "2020.7.30.17.4.28" %}
+{% set sha256 = "6865c1779313abaed3dc19572de7739c2e8e338abd0662af59c8411876f85951" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: package_version={{ version }} {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
 
 requirements:
@@ -40,7 +40,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Python/numba code for manipulating time-dependent functions of spin-weighted spherical harmonics'
+  summary: Python/numba code for manipulating time-dependent functions of spin-weighted spherical harmonics
   description: |
     This package collects a number of functions for constructing and manipulating gravitational
     waveforms, including rotating, determining the angular velocity, finding the co-precessing and
