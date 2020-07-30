@@ -5,7 +5,7 @@ Home: https://github.com/moble/scri
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python/numba code for manipulating time-dependent functions of spin-weighted spherical harmonics
 
