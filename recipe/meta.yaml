@@ -1,6 +1,6 @@
 {% set name = "scri" %}
-{% set version = "2020.7.30.17.4.28" %}
-{% set sha256 = "6865c1779313abaed3dc19572de7739c2e8e338abd0662af59c8411876f85951" %}
+{% set version = "2020.7.31.16.6.41" %}
+{% set sha256 = "9a0da325c8a516582be0add9a24ace4916cb3162704bd9227b06bc9856328a1d" %}
 
 package:
   name: {{ name|lower }}
