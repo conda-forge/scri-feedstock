@@ -5,9 +5,11 @@ Home: https://github.com/moble/scri
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scri-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python/numba code for manipulating time-dependent functions of spin-weighted spherical harmonics
+
+Development: https://github.com/moble/scri
 
 This package collects a number of functions for constructing and manipulating gravitational
 waveforms, including rotating, determining the angular velocity, finding the co-precessing and
