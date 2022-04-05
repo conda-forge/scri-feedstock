@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python
     - pip >=20.0.2
     - poetry-core
   run:
-    - python >=3.8
+    - python
     - numpy >=1.20
     - scipy
     - matplotlib-base
