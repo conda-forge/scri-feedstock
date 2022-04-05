@@ -11,17 +11,16 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
   number: 1
   script: {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python }}
     - poetry-core
     - pip
   run:
-    - python >=3.8
+    - python {{ python }}
     - numpy >=1.13
     - scipy
     - matplotlib-base
