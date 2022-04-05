@@ -30,7 +30,7 @@ requirements:
     - quaternion >=2022.4
     - spherical_functions >=2022.4
     - spinsfast >=2022.4
-    - sxs >=2022.3.2
+    - sxs >=2022.3.3
 
 test:
   imports:
