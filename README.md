@@ -20,11 +20,86 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table>
+    
+  <tr>
+    <td>Azure</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main">
-      </a>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_64_python3.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.9</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.9" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.9</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.9" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=win&configuration=win_64_python3.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=win&configuration=win_64_python3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.9</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=win&configuration=win_64_python3.9" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
     </td>
   </tr>
 </table>
