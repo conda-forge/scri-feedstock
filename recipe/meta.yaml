@@ -20,14 +20,9 @@ requirements:
     - python {{ python }}
     - poetry-core
     - pip
-
   run:
     - python {{ python }}
-    - numpy >=1.13
-    - scipy
     - matplotlib-base
-    - h5py
-    - numba
     - quaternion >=2022.4
     - spherical_functions >=2022.4
     - spinsfast >=2022.4
