@@ -1,6 +1,6 @@
 {% set name = "scri" %}
-{% set version = "2022.0.2" %}
-{% set sha256 = "e90db335ffe233e3019afc64a12d87803e4ac51803ffd0493441acf2517e0779" %}
+{% set version = "2022.3.1" %}
+{% set sha256 = "e3bf73cebce4bcca7ddbc90e21d0b2fe3ceaba830d7989a39e8baa81b17a7559" %}
 
 package:
   name: {{ name|lower }}
@@ -11,26 +11,26 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
+  skip: True  # [py<38]
   number: 0
-  script: package_version={{ version }} {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3
-    - poetry-core
+    - python
     - pip
+    - poetry-core
   run:
-    - python >=3
-    - numpy >=1.13
+    - python
+    - numpy
     - scipy
     - matplotlib-base
     - h5py
     - numba
-    - quaternion >=2019.7.15.12.50.36
-    - spherical_functions
-    - spinsfast
-    - sxs >=2021
+    - quaternion >=2022.4
+    - spherical_functions >=2022.4
+    - spinsfast >=2022.4
+    - sxs >=2022.3.2
 
 test:
   imports:
