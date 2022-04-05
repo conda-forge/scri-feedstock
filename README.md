@@ -75,27 +75,6 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.9" alt="variant">
                 </a>
               </td>
-            </tr><tr>
-              <td>win_64_python3.10</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=win&configuration=win_64_python3.10" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.8</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=win&configuration=win_64_python3.8" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.9</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=win&configuration=win_64_python3.9" alt="variant">
-                </a>
-              </td>
             </tr>
           </tbody>
         </table>
