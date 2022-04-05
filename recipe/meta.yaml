@@ -11,18 +11,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3
+    - python >=3.8
+    - pip >=20.0.2
     - poetry-core
-    - pip
   run:
-    - python >=3
-    - numpy >=1.13
+    - python >=3.8
+    - numpy >=1.20
     - scipy
     - matplotlib-base
     - h5py
