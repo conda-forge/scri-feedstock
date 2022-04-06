@@ -20,7 +20,6 @@ requirements:
     - python {{ python }}
     - poetry-core
     - pip
-
   run:
     - python {{ python }}
     - matplotlib-base
