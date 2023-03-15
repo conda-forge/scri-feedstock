@@ -1,11 +1,11 @@
-About scri
-==========
+About scri-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scri-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/moble/scri
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scri-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python/numba code for manipulating time-dependent functions of spin-weighted spherical harmonics
 
@@ -37,42 +37,42 @@ Current build status
               <td>linux_64_python3.10</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.10" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.8</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.8" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.9</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.9" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.10</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.10" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.8</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.8" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.9</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6436&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.9" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/scri-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr>
