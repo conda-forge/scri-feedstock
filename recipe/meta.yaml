@@ -11,19 +11,19 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: true  # [win or py<38]
-  number: 0
-  script: {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
+  noarch: python
+  number: 1
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python {{ python }}
-    - poetry-core
+    - poetry-core >=1.0.0
     - pip
+    - python >=3.8,<3.11
   run:
-    - python {{ python }}
     - matplotlib-base
     - quaternion >=2022.4
+    - python >=3.8,<3.11
     - spherical_functions >=2022.4
     - spinsfast >=2022.4
     - sxs >=2022.3.4
