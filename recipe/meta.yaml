@@ -29,8 +29,14 @@ requirements:
     - sxs >=2022.3.4
 
 test:
+  requires:
+    - pip
   imports:
     - scri
+  commands:
+    # check metadata
+    - python -m pip check
+    - python -m pip show scri
 
 about:
   home: https://github.com/moble/scri
