@@ -21,12 +21,17 @@ requirements:
     - pip
     - python >=3.8,<3.11
   run:
+    - h5py >=3.0,<4.0
     - matplotlib-base
+    - numba >=0.55
+    - numpy >=1.20
     - quaternion >=2022.4
     - python >=3.8,<3.11
+    - scipy >=1.0,<2.0
     - spherical_functions >=2022.4
     - spinsfast >=2022.4
     - sxs >=2022.3.4
+    - tqdm >=4.48.2,<4.61.2
 
 test:
   requires:
