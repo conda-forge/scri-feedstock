@@ -17,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python {{ python }}
+    - python >=3.8
     - hatchling
     - pip
   run:
-    - python {{ python }}
+    - python >=3.8
     - numpy >=1.20
     - scipy >=1.0
     - numba >=0.55
