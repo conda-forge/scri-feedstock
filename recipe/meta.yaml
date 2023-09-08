@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: true  # [win or py<38]
+  noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
 
@@ -22,11 +22,15 @@ requirements:
     - pip
   run:
     - python {{ python }}
-    - matplotlib-base
+    - numpy >=1.20
+    - scipy >=1.0
+    - numba >=0.55
+    - h5py >=3
     - quaternion >=2022.4
     - spherical_functions >=2022.4
     - spinsfast >=2022.4
-    - sxs >=2022.3.4
+    - sxs >=2022.4.0
+    - tqdm >=4.63.1
 
 test:
   imports:
