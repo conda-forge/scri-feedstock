@@ -1,13 +1,13 @@
 {% set name = "scri" %}
-{% set version = "2024.0.0" %}
-{% set sha256 = "ea10f92b88dcd7ea78a4b8385dab5a94aeaa9a0a855aad635adb0e59be99813d" %}
+{% set version = "2024.0.1" %}
+{% set sha256 = "2e24627d5d1e5f61af46563548f611ef70e1396dad87f8eb5de7f440e53e4b14" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
